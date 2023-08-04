@@ -39,7 +39,7 @@ int nogps_i=0;
 #define violet_rel 26
 #define NOFRELAYS sizeof(relays)/sizeof(relays[0])
 
-unsigned long mill_restart 400000000;   //интервал автоматической перезагрузки
+unsigned long mill_restart=400000000;   //интервал автоматической перезагрузки
 int relays[]={violet_rel,white_rel,blue_rel,green_rel,yellow_rel,orange_rel,brown_rel,lightgreen_rel};
 #define NOFBTNS sizeof(btns)/sizeof(btns[0])
 int btns[]={violet_btn,white_btn,blue_btn,green_btn,yellow_btn,orange_btn/*,water_btn*/};
