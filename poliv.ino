@@ -193,9 +193,9 @@ finish=0;
 
 #define NOFALARMS 5
 
-#define v1_3bochki 1000000
-#define v1_2bochki 1500000
-#define v2_3bochki 2000000
+#define v1_3bochki 3000000
+#define v1_2bochki 4500000
+#define v2_3bochki 6000000
 #define NOFSCHEDULER sizeof(scheduler_arr)/sizeof(scheduler)
 #define NOFTASKS sizeof(tasks_arr)/sizeof(task)
 #ifdef GPSTRACKER
@@ -223,7 +223,7 @@ scheduler scheduler_arr[]={
   {"Violet task",violet_btn,10,0,6,v1_2bochki,0,100,1,18,300,1,0,110,1},
   {"White task",white_btn,10,0,7,v1_2bochki,0,100,1,18,300,1,0,110,1},
   {"blue task",blue_btn,10,0,1,v1_2bochki,0,100,1,18,300,1,0,110,1},
-  {"green task",green_btn,18,35,-1,v1_3bochki,0,60,1,18,300,1,0,110,1},
+  {"green task",green_btn,19,15,-1,v1_3bochki,0,60,1,18,300,1,0,110,1},
   {"yellow task",yellow_btn,18,00,-1,v1_3bochki,0,60,1,18,300,1,0,110,1},
 /*    {"blue task",blue_btn,18,30,-1,v1_3bochki,0,60,1,18,300,1,0,110,1},
   {"green task",green_btn,10,0,1,v1_2bochki,0,100,1,18,300,1,0,110,1},
