@@ -62,7 +62,8 @@ BluetoothSerial SerialBT;
 #include <TimeAlarms.h>
 
 //#include <TinyGPS.h>
-#include "TinyGPS++.h"
+//#include "TinyGPS++.h"
+#include "TinyGPSPlus.h"
 TinyGPSPlus gps;
 //TinyGPS gps; 
 const int offset = 3;
@@ -220,7 +221,10 @@ scheduler scheduler_arr[]={
  
 #else
 scheduler scheduler_arr[]={
-  {"Violet task",violet_btn,10,0,6,v1_2bochki,0,100,1,18,300,1,0,110,1},
+  {"Violet task",violet_btn,10,0,2,v1_2bochki,0,100,1,18,300,1,0,110,1},
+  {"White task",white_btn,10,0,3,v1_2bochki,0,100,1,18,300,1,0,110,1},
+  {"blue task",blue_btn,10,0,4,v1_2bochki,0,100,1,18,300,1,0,110,1},
+   {"Violet task",violet_btn,10,0,6,v1_2bochki,0,100,1,18,300,1,0,110,1},
   {"White task",white_btn,10,0,7,v1_2bochki,0,100,1,18,300,1,0,110,1},
   {"blue task",blue_btn,10,0,1,v1_2bochki,0,100,1,18,300,1,0,110,1},
   {"green task",green_btn,19,15,-1,v1_3bochki,0,60,1,18,300,1,0,110,1},
